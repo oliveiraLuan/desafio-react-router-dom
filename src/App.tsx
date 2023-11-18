@@ -1,9 +1,19 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./routes/Home";
 
 
 function App() {
 
-  return (<>
-    <h1>Criado projeto</h1>
+  return (
+  <>
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home/>}>
+                <Route path="/products"/>
+                <Route path="/aboutus"/>
+            </Route>
+        </Routes>
+    </BrowserRouter>
   </>)
 }
 
