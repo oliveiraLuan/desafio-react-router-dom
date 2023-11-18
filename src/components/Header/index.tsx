@@ -5,7 +5,7 @@ import homeIcon from "../../assets/homeicon.png";
 export default function Header() {
   return (
     <>
-      <header>
+      <header className="header-clients">
         <nav>
           <NavLink className={({isActive}) => isActive ? "item item-active" : "item"} to="/home">Inicio</NavLink>
           <NavLink className={({isActive}) => isActive ? "item item-active" : "item"} to="/products">Produtos</NavLink>
