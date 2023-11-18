@@ -15,3 +15,11 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
+
+h1{
+  color: var(--font-color-secondary);
+  font-weight: 700;
+  font-size: 24px;    
+  margin-top: 10px;
+  margin-left: 70px;
+}
