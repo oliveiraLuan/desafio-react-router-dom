@@ -1,0 +1,19 @@
+.header-categories{
+    width: 960px;
+    height: 60px;
+    background-color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.nav-content-categories{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.item-categories{
+    color: var(--font-color-secondary);
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+}

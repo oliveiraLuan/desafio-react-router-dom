@@ -1,10 +1,10 @@
 import Header from "../../components/Header";
 
-export default function AboutUs() {
+export default function NotFound() {
   return (
     <>
       <Header />
-      <h1>Sobre nós</h1>
+      <h1>Não encontrado!</h1>
     </>
   );
 }

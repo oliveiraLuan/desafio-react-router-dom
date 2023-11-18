@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}

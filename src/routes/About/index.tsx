@@ -1,11 +1,11 @@
 import Header from "../../components/Header";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Header />
       <main>
-        <h1>Bem-vindos!</h1>
+        <h1>Sobre nós</h1>
       </main>
     </>
   );
